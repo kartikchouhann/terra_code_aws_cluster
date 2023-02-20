@@ -37,3 +37,12 @@ variable "ssh_key_path" {
   type    = string
   default = "~/.ssh/k8s-ssh-key.pub"
 }
+variable "aws_access_key" {
+  type    = string
+  default = ""
+}
+
+variable "aws_secret_key" {
+  type    = string
+  default = ""
+}
